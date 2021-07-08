@@ -1,0 +1,1 @@
+# kampanos-coding-guidelines
