@@ -62,9 +62,12 @@ Independent and isolated entities its easier for:
 *	Automated tests
 *	Less bugs/easier to isolate and fix bugs
 
+### Wrong approach
+In the code below the getUserTimestamps() function has too many responsabilities.
 <p>
   <img alt="variables example" src=".github/example9.png" width="100%">
 </p>
+
 
 
 <p>
