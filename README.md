@@ -13,3 +13,44 @@ https://www.itwinjs.org/learning/guidelines/typescript-coding-guidelines/
 <p>
   <img alt="variables example" src=".github/example.png" width="100%">
 </p>
+
+
+<p>
+  <img alt="variables example" src=".github/example.png" width="100%">
+</p>
+
+
+<p>
+  <img alt="variables example" src=".github/example1.png" width="100%">
+</p>
+
+
+<p>
+  <img alt="variables example" src=".github/example2.png" width="100%">
+</p>
+
+
+
+<p>
+  <img alt="variables example" src=".github/example3.png" width="100%">
+</p>
+
+
+<p>
+  <img alt="variables example" src=".github/example4.png" width="100%">
+</p>
+
+
+<p>
+  <img alt="variables example" src=".github/example5.png" width="100%">
+</p>
+
+
+<p>
+  <img alt="variables example" src=".github/example6.png" width="100%">
+</p>
+
+
+<p>
+  <img alt="variables example" src=".github/example7.png" width="100%">
+</p>
