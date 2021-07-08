@@ -1,4 +1,4 @@
-# kampanos-coding-guidelines
+# Kampanos Coding Guidelines
 
 <p align="center">
   <a href="#Readable-Code">Readable Code</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
