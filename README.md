@@ -1,6 +1,7 @@
 # kampanos-coding-guidelines
 
 ## Readable Code
+
 Here are the basics core fundamentals for creating a readable code.
 JavaScript coding guidelines
 
@@ -17,6 +18,11 @@ All variables must be camelCase and self-descriptive. It shouldn't be necessary 
 <p>
   <img alt="variables example" src=".github/example.png" width="100%">
 </p>
+
+Global Variables
+•	A global JavaScript/Typescript variable is declared at the top of a project/file.
+•	A global JavaScript/Typescript variable is written in camelCase if it is mutable.
+•	A global JavaScript/Typescript variable is written in UPPERCASE if it is immutable.
 
 
 <p>
