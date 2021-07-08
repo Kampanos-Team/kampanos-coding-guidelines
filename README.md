@@ -10,11 +10,10 @@ Typescript coding guidelines
 https://www.itwinjs.org/learning/guidelines/typescript-coding-guidelines/
 
 
+### Variables
 <p>
-  <img alt="variables example" src=".github/example.png" width="100%">
+All variables must be camelCase and self-descriptive. It shouldn't be necessary to add a comment for additional documentation to the variable.  Boolean variables should have a verb as prefix:
 </p>
-
-
 <p>
   <img alt="variables example" src=".github/example.png" width="100%">
 </p>
