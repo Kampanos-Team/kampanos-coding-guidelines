@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="#Readable-Code">Readable Code</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Single Responsibility Principle">Single Responsibility Principle</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Single-Responsibility-Principle">Single Responsibility Principle</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Testing">Testing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Typing">Typing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#GIT">GIT</a>
@@ -10,14 +10,16 @@
 
 ## Readable Code
 
-Here are the basics core fundamentals for creating a readable code.
+Here are some basics core fundamentals for creating a readable code.
+
 JavaScript coding guidelines
-
+<p>
 https://developer.mozilla.org/en-US/docs/MDN/Guidelines/Code_guidelines/JavaScript
-
+</p>
 Typescript coding guidelines
+<p>
 https://www.itwinjs.org/learning/guidelines/typescript-coding-guidelines/
-
+</p>
 
 ### Variables
 <p>
@@ -40,7 +42,7 @@ Like variables functions must be descriptive and should always have a verb as pr
 *	saveSomething()
 *	handleSomething()
 
-Use "async" "await", instead of “. then()” syntax whenever it's possible to make the code more readable.
+Use "``async``" ``"await"``, instead of ``“.then()”`` syntax whenever it's possible to make the code more readable.
 
 <p>
   <img alt="variables example" src=".github/example6.png" width="100%">
@@ -56,7 +58,7 @@ This way it's easier to know the function purpose and also identify promises.
 
 ## Single Responsibility Principle
 
-A class, a component or a function should have only __one__ responsibility.
+A class, a component or a function should have only ``one`` responsibility.
 </br>
 Entities that have more than one responsibility should be split into different independent entities.
 </br>
@@ -75,6 +77,7 @@ In the code below the getUserTimestamps() function has too many responsabilities
 </p>
 
 ### Right approach
+We split the function into multiple pieces that can be reused by other functions
 <p>
   <img alt="variables example" src=".github/example10.png" width="100%">
 </p>
@@ -89,7 +92,7 @@ In the code below the getUserTimestamps() function has too many responsabilities
   <img alt="variables example" src=".github/example11.png" width="100%">
 </p>
 
-As you can notice, the __*createCore()*__  function doesn’t need to know the details about how __*createDatabaseConnection()*__ and __*createWebserver()*__  works. The only thing that our main function needs to know is the available public methods from each function.
+As you can notice, the __*createCore()*__  function doesn’t need to know the details about how __*createDatabaseConnection()*__ and __*createWebserver()*__  works. The only thing that our main function needs is to know the available public methods from each function.
 <p>
 If any of the modules needs to change dependencies it shouldn’t affect any entities using that module.
 </p>
