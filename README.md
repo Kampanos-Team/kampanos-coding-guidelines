@@ -145,7 +145,7 @@ $ git checkout -b featureName main
 This creates a branch called ``“featureName”`` which sprouts from the ``"main"`` branch, and checks it out automatically. 
 In this branch, apply all the commits you want. You can periodically ensure that it is off the latest main by doing: 
 
-```
+```bash
 # refresh main
 $ git checkout main
 $ git pull
@@ -156,7 +156,7 @@ $ git rebase main featureName
 
 When the new feature is finish but still need discussion/review, push the local branch into a remote branch with the following commands then perform a __Pull Request__ on Github.
 
-```
+```bash
 # refresh main
 $ git checkout main
 $ git pull
@@ -170,7 +170,7 @@ $ git push origin featureName
 
 If the implementation needs no further discussion/review, merge the branches locally and then push code to remote repository.
 
-```
+```bash
 # refresh main
 $ git checkout main
 $ git pull
@@ -190,4 +190,6 @@ $ git branch -d featureName
 ```
 If ``git push`` fails, it’s because your master is not up to date. Refresh it with ``git pull --rebase``, and then try ``git push`` again.
 With this workflow the main branch is always clean just updated with the latest commits.
+
+
 
