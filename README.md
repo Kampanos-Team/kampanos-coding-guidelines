@@ -8,3 +8,8 @@ https://developer.mozilla.org/en-US/docs/MDN/Guidelines/Code_guidelines/JavaScri
 
 Typescript coding guidelines
 https://www.itwinjs.org/learning/guidelines/typescript-coding-guidelines/
+
+
+<p>
+  <img alt="variables example" src=".github/example.png" width="100%">
+</p>
