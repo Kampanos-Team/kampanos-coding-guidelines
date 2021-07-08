@@ -190,6 +190,11 @@ $ git branch -d featureName
 ```
 If ``git push`` fails, it’s because your master is not up to date. Refresh it with ``git pull --rebase``, and then try ``git push`` again.
 With this workflow the main branch is always clean just updated with the latest commits.
+<p>
+»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+</p>
 
+#### Feel free to contribute and make this guideline more complete
 
+#### 🧠 Its by sharing our knowledge that we can reach the next level!
 
