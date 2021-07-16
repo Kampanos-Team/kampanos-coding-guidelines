@@ -165,7 +165,7 @@ $ git pull
 $ git rebase main featureName
  
 # build and test again to make sure everything is correct
-$ git push origin featureName
+$ git push -u origin featureName
 ```
 
 If the implementation needs no further discussion/review, merge the branches locally and then push code to remote repository.
